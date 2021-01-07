@@ -1,0 +1,50 @@
+.container{
+	margin-top:2em!important;
+	background:white;
+	padding:3em!important;
+	border-radius:5px;
+	-webkit-box-shadow: -2px 29px 82px -28px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 29px 82px -28px rgba(0,0,0,0.75);
+box-shadow: -2px 29px 82px -28px rgba(0,0,0,0.75);
+}
+
+.body-gestor{
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+	color:#424949;
+}
+
+.titulo{
+	padding:1em;
+	
+}
+
+.divTurno{
+	margin-top:3em;
+	margin-bottom:3em;
+	font-size:13px;
+	width: 16em;
+	padding:10px;
+}
+
+.divTurno li{
+	padding:6px!important;
+}
+
+.lista-turnos{
+	margin-left:1em;
+	margin-top:3em;
+	display:flex!important;
+	flex-direction: row!important;
+	justify-content: space-around!important;
+	border: 1px solid#EEEEEE!important;
+}
+
+.edicion{
+	width:6em;
+}
+
+.buttons{
+	display:flex;
+	justify-content: space-around;
+	padding-top:1em;
+}

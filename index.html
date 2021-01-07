@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<title>Gestor de Turnos</title>
+</head>
+<body class="body-gestor">
+	<h2 class="text-center display-6 titulo">GESTOR DE TURNOS</h2>
+	
+	<div class="container" id="contenedor">
+		<div class="row">
+
+		<div class="col col-lg-6 col col-md-6 col-sm-12 col-xs-12" >
+		
+		<h3 class="text-center">Ingrese sus datos</h3>
+		
+		<form id="formulario">
+		
+		<div class="form-group row">
+		<label for="" class="col-form-label">Nombre:</label>
+		<input type="text" class="form-control" id="nombre" name="nombre"></div>
+
+	
+		<div class="form-group row">
+		<label for="" class="col-form-label">Apellido:</label>
+		<input type="text" class="form-control" id="apellido" name="apellido">
+		</div>
+
+		<div class="form-group row">
+		<label for="" class="col-form-label">Telefono:</label>
+		<input type="number" class="form-control" id="telefono" name="telefono">
+		</div>
+
+		<div class="form-group row">
+		<label for="" class="col-form-label">Fecha:</label>
+		<input type="date" class="form-control" id="fecha" name="fecha">
+		</div>
+
+		<div class="form-group row">
+		<label for="" class="col-form-label">Hora:</label>
+		<input type="time" class="form-control" id="hora" name="hora">
+		</div>
+
+		<div class="form-group row textarea">
+			<label for="" class="col-form-label">Informacion Adicional</label>
+			<textarea id="info-ad" class="form-control" rows="6" placeholder="Ingresar Texto..." name="infoAd"></textarea>
+		</div>
+
+		<button type="submit" id="enviar" class="btn btn-secondary w-75 d-block" style="margin:auto; margin-top:1.5em; margin-bottom:1.5em">Agregar Turno</button>
+		</form>
+</div>
+<div class="col col-lg-6 col col-md-6 col-sm-12">
+	<h3 class="text-center">Turnos</h3>
+
+	<div class="contenedor-turnos">
+	<ul id="turnos" class="list-group lista-turnos">
+		<!--div class="card divTurno">
+ 			<ul class="list-group list-group-flush">
+ 			<li class="list-group-item"><b>Nombre:</b> Facundo</li>
+    		<li class="list-group-item"><b>Apellido:</b> Veliz</li>
+    		<li class="list-group-item"><b>Telefono:</b> 115423653</li>
+    		<li class="list-group-item"><b>Fecha:</b> Fecha</li>
+    		<li class="list-group-item"><b>Hora:</b> 11:23</li>
+    		<li class="list-group-item"><b>Descripcion:</b> Dolor estomacal asdasdsaads dasadasdas</li>
+ 			</ul>
+ 			<div class="buttons">
+ 			<button type="button" class="btn btn-warning btn-sm edicion" id="btnEditar">Editar </button>
+ 			<button type="button" class="btn btn-warning btn-sm edicion" id="btnBorrar">Borrar X</button>
+ 			</div>
+			</div-->
+
+	</ul>
+	</div>
+	</div>
+</div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
